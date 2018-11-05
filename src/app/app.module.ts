@@ -10,10 +10,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 //Components
 import { AppComponent } from './app.component';
+import { MenuComponent } from './components/shared/menu/menu.component';
+import { LoginComponent } from './components/auth/login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

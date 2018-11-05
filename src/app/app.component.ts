@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import * as M from "../assets/materialize/js/materialize.min.js";
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,14 +6,6 @@ import * as M from "../assets/materialize/js/materialize.min.js";
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'smartSystems';
-
-  options = {};
-
-  
-  ngOnInit(){
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, this.options);
-  }
 }
